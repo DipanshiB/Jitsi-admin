@@ -17,12 +17,8 @@ function App() {
           </h6>
         </div>
         <div className="login">
-          <div className="form-title">
-                <h1 className="form-text-title">Login</h1>
-          </div> 
-          <div className="form-image">
-            <img className="image" src={formimg} alt="Login Form"/>
-          </div>
+          <h1 className="form-text-title">Login</h1>
+          <img className="image" src={formimg} alt="Login Form"/>
           <Form />
         </div>
         <div className="footer">

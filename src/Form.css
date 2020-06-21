@@ -1,14 +1,7 @@
   .user-form {
-    /* height: min-content;
-    width: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* padding: 15px;
-    background-color: #F1F1F1;
-    border-radius: 3px;
-    box-shadow: 0 5px 18px #49525c; */
+    align-items: center; 
   }
   
   .form-text-title {
@@ -16,7 +9,6 @@
     color: black;
     font-weight: 400;
     font-size: 50px;
-    /* margin: 20px; */
     padding: 10px;
     width: min-content;
   }
@@ -52,8 +44,20 @@
     margin: 5px;
     border: 1px solid #c7c7c7;
     border-radius: 3px;
+    line-height: 20px;
   }
 
   .btn {
-      width: 50px;
+    width: 120px;
+    border: none;
+    font-family: -apple-system,BlinkMacSystemFont,open_sanslight,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 8px;
+    margin: 10px;
+  }
+
+  .btn:hover {
+      background-color: ;
   }
