@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome {
+  background-image: linear-gradient(-90deg,#1251AE 0,#0074FF 50%,#1251AE 100%);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-family: inherit;
+  justify-content: space-between;
+  min-height: 100vh;
+  position: relative;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  padding: 50px;
+}
+
+.header-text-title {
+  font-family: -apple-system,BlinkMacSystemFont,open_sanslight,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  color: #F1F1F1;
+  font-weight: 400;
+  font-size: 50px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.header-text-prompt {
+  font-family: -apple-system,BlinkMacSystemFont,open_sanslight,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  color: #F1F1F1;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 8px;
+  padding: 5px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: min-content;
+  width: min-content;
+  padding: 15px;
+  background-color: #F1F1F1;
+  border-radius: 3px;
+  box-shadow: 0 5px 18px #49525c;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
